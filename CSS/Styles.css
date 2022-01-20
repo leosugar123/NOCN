@@ -1,0 +1,95 @@
+.containerA {
+  display: grid;  
+  background-color: #035BB1;  
+  grid-gap: 5px;
+  padding:5px;
+  grid:
+      "logo header header header"      
+      "logo sidebar sidebar sidebar"
+      "content-2 content-1 content-1 content-3 "   
+      "content-2 content-1 content-1 content-3"
+      "footer footer footer footer";
+}
+.containerA > div{
+ 
+ text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.containerB {
+  display: grid;  
+  background-color: #035BB1;  
+  grid-gap: 5px;
+  padding:5px;
+  grid:
+      "logo header header header"      
+      "logo sidebar sidebar sidebar"
+      "content-1 content-1 content-2 content-2 "   
+      "content-1 content-1 content-2 content-2"
+      "footer footer footer footer";
+}
+.containerB > div{
+ 
+ text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.containerC {
+  display: grid;  
+  background-color: #035BB1;  
+  grid-gap: 5px;
+  padding:5px;
+  grid:
+      "logo header header header"      
+      "logo sidebar sidebar sidebar"
+      "content-1 content-1 content-1 content-1 "   
+      "content-1 content-1 content-1 content-1"
+      "footer footer footer footer";
+}
+.containerC > div{
+ 
+ text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.header {
+  grid-area: header;
+   background-color: #ADDC68;
+  color:black;
+  position:relative;
+  left:10px;
+  padding-right: -90000px;
+  
+}
+.logo{
+   grid-area: logo; 
+  position:relative;
+  left:10px;  
+}
+.sidebar{
+    grid-area: sidebar;
+    position:relative;
+    left:10px;
+}
+.content-1 {
+  grid-area: content-1;
+  position:relative;
+  left:10px;  
+}
+
+.content-2 {
+  grid-area: content-2;
+   position:relative;
+  left:10px; 
+}
+
+.content-3 {
+  grid-area: content-3;
+   position:relative;
+  left:10px; 
+}
+.footer {
+  grid-area: footer;
+   position:relative;
+  left:10px; 
+}
